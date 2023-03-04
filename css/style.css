@@ -200,8 +200,21 @@ hr.rounded {
   grid-template-columns: 200px 200px 200px 200px;
   padding-left: 290px;
 }
+
+button{
+  
+}
+
+
+
+
+
+
+
+
+
+
 .details {
- 
   align-items: center;
   border-radius: 25px;
   margin: 8px;
