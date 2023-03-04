@@ -194,18 +194,6 @@ hr.rounded {
   color: blueviolet;
 }
 
-.container3 {
-  display: grid;
-  /* background-color: rgb(255, 237, 209); */
-  grid-template-columns: 200px 200px 200px 200px;
-  padding-left: 290px;
-}
-
-button{
-
-}
-
-
 
 
 
@@ -232,41 +220,46 @@ button{
   color: blueviolet;
 }
 
-.skills {
-  /* background-color: rgb(255, 237, 209); */
-}
-
-.skills .el-skills {
+.el-skills {
   margin-top: 35px;
   text-align: center;
   font-size: 35px;
+  color: blueviolet;
   font-weight: bold;
   /* font-weight: bold; */
 }
 
+.container3 {
+  display: grid;
+  justify-content: center;
+  /* background-color: rgb(255, 237, 209); */
 
+  /* Spacing the element's */
 
+  padding: 40px;
+  grid-template-columns: 200px 300px 210px 100px;
+  /* padding-left: 290px; */
+}
 
-
-
+.container3 button{
+  width: 250px;
+  height: 250px;
+}
 
 
 
 
 /* Contact form */
+
 .contact-form {
-
-
   display: flex;
   justify-content: space-between;
 
   /* Making contact detail's in center */
-
-  padding: 80px 350px;
-  
-  /* text-align: left; */
-  /* max-width: 670px; */
-  /* margin: auto; */
+  padding-top: 50px;
+  text-align: left;
+  max-width: 670px;
+  margin: auto;
   /* color: white; */
 }
 
@@ -278,10 +271,8 @@ button{
 
 .message textarea {
   border-radius: 10px;
-  /* border: 0px; */
+  border: 1px solid black;
 }
-
-
 
 .contact-form label {
   display: flex;
@@ -291,20 +282,11 @@ button{
 
 
 .contact-details input {
-  /* border-radius: 10px; */
-  /* border-radius: 1px; */
- 
+  border-radius: 10px;
+  border-radius: 1px;
   padding: 5px;
   margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
 
 
 .message textarea {
@@ -312,7 +294,7 @@ button{
 }
 
 .message button {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: 0;
   border-radius: 5px;
   background: blueviolet;
@@ -331,14 +313,10 @@ button{
   color:white;
   transition:0.1s;
 }
+/* End with Contact form */
 
 
-
-
-
-
-
-
+/* FOOTER */
 .footer {
   text-align: center;
 }
@@ -369,3 +347,4 @@ button{
 .footer .ul .li a:hover {
   border: 1px solid black;
 }
+/* FOOTER END */
