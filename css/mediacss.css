@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 425px) {
     body {
         /* width: 750px; */
         height: auto;
@@ -29,22 +29,28 @@
     }
 
     .content .p {
-        padding-top: 18px;
+        padding-top: 28px;
     }
 
-    .container .work {
-        padding: 15px;
-        border: 2px solid rgb(0, 0, 0);
+    h3 {
+        font-size: 35px;
     }
 
     .section {
         display: flex;
-        padding-left: 80px;
+        width: auto;
+        padding-left: 90px;
     }
 
     .section img {
-        place-content: center;
-        padding-right: 0px;
+        /* place-content: center; */
+        padding-top: 75px;
+        height: 300px;
+        width: auto;
+    }
+
+    .section p {
+        line-height: 25px;
     }
 
     .address {

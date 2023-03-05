@@ -85,16 +85,10 @@ h1 {
   text-align: center;
 }
 
-.container .work {
-  border: 1px solid rgb(0, 0, 0);
-  /* padding: 5px; */
-}
-
-
-
-.container .work .h3 {
+h3 {
   font-size: 45px;
   text-align: center;
+  border: 1px solid black;
 }
 
 .container2 {
@@ -112,8 +106,7 @@ h1 {
 .section {
   margin-top: 12px;
   display: flex;
-  flex-direction: row;
-  width: 80%;
+  width: auto;
   height: auto;
   /* background-color: rgb(190, 225, 230); */
 }
@@ -123,22 +116,23 @@ h1 {
   font-size: unset;
   height: auto;
   letter-spacing: 0.8px;
-  line-height: 26px;
-  padding: 25px;
+  line-height: 36px;
+  /* padding-top: 25px; */
   word-spacing: 4px;
   padding: 10px;
 }
 
 .section img {
-  margin: 12px;
-  max-width: 50px;
-  padding-right: 50px;
-  max-width: 35%;
+  width: 325px;
+  /* margin: 12px; */
+  /* max-width: 50px; */
+  padding-left: 50px;
+  /* max-width: 35%; */
 }
 
 .p {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   margin: auto;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
