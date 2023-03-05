@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px) {
     body {
-        width: 850px;
+        /* width: 750px; */
         height: auto;
-        /* max-width: 400px; */
+        max-width: 860px;
     }
 
     .navbar {
@@ -37,7 +37,18 @@
         border: 2px solid rgb(0, 0, 0);
     }
 
+    .section {
+        display: flex;
+        padding-left: 80px;
+    }
 
+    .section img {
+        place-content: center;
+        padding-right: 0px;
+    }
 
-
+    .address {
+        padding-top: 14px;
+        padding-left: 250px;
+    }
 }
