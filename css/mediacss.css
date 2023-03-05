@@ -45,8 +45,8 @@
     .section img {
         /* place-content: center; */
         padding-top: 75px;
-        height: 300px;
-        width: auto;
+        height: 250px;
+        width: 220px;
     }
 
     .section p {
@@ -56,5 +56,9 @@
     .address {
         padding-top: 14px;
         padding-left: 250px;
+    }
+
+    .container3 {
+        grid-template-columns: 280px 270px 130px 310px;
     }
 }
