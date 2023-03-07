@@ -306,6 +306,8 @@ hr.rounded {
   text-align: left;
   max-width: 670px;
   margin: auto;
+
+  padding-bottom: 40px;
   /* color: white; */
 }
 
@@ -323,6 +325,7 @@ hr.rounded {
 .contact-form label {
   display: flex;
   margin-bottom: 10px;
+
 
 }
 
@@ -346,7 +349,7 @@ hr.rounded {
   background: blueviolet;
   width: 160px;
   height: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: auto;
   text-transform: uppercase;
   font-weight: bold;
@@ -358,12 +361,45 @@ hr.rounded {
   background: black;
   color: white;
   transition: 0.1s;
+
 }
 
 /* End with Contact form */
 
 
 
+/*--------------------------- Gallery----------------- */
+
+.flex-box {
+  display: grid;
+  place-content: center;
+  border: 1px solid black;
+  width: 100;
+  height: auto;
+}
+
+.flex--elements {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.img-gallry {
+  height: 400px;
+  padding: 0.5px;
+  border: 1px solid black;
+  flex: 1;
+  transition: 0.1s;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.img-gallry:hover {
+  flex: 4;
+}
 
 
 
@@ -378,6 +414,148 @@ hr.rounded {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex--elements .btn-glrry {
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: blueviolet;
+  width: 160px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.flex--elements .btn-glrry:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  transition: 0.1s;
+}
+
+.btn-glrry a:link {
+  text-decoration: none;
+}
+
+/* 
+.btn-gllry .anchor-tag {
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  background: blueviolet;
+  width: 160px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+} */
+
+/* .btn-gllry a:hover {
+  background: black;
+  color: white;
+  transition: 0.1s;
+} */
+
+
+
+/* ------------------GALLERY-END-----------------------------*/
 
 
 /* -----------------------FOOTER----------------------- */
