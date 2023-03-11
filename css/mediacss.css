@@ -10,6 +10,7 @@
     .navbar {
         height: auto;
         width: 100%;
+        justify-content: center;
     }
 
     .navbar .ul {
@@ -37,8 +38,9 @@
         /* width: auto; */
     }
 
-    h3 {
-        font-size: 35px;
+    .container h3 {
+        margin-top: 0px;
+        font-size: 40px;
     }
 
     h1 {
@@ -75,17 +77,45 @@
 
 
     .container3 {
-        display: grid;
-        gap: 44px;
-        /* width: 22px; */
-        height: 22px;
-        grid-template-columns: 70px 70px 180px 90px;
+        padding: 20px;
+
     }
 
-    .container3 button {
+    .container3 .animate {
         width: 100px;
         height: 100px;
+        padding: 0px 0px 0px 0px;
     }
+
+    .animate p {
+        margin: 35px 0px 10px 0px;
+        font-size: 16px;
+    }
+
+
+    /* Gallery */
+    .flex-box {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .img-gallry {
+        height: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .contact-form {
         padding: 65px;
@@ -110,10 +140,15 @@
         /* color: white; */
     }
 
+    .contact-details input {
+        width: 80%;
+        height: 30px;
+    }
+
     .message {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: auto;
     }
 
     .message button {
