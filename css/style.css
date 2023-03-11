@@ -174,6 +174,27 @@ h1 {
   font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .address {
   padding: 40px;
   /* max-width: 20%; */
@@ -266,20 +287,35 @@ hr.rounded {
 .container3 {
   display: grid;
   justify-content: space-evenly;
-
-  /* background-color: rgb(255, 237, 209); */
-
   /* Spacing the element's */
   padding: 70px 0px 50px 200px;
   grid-template-columns: 200px 250px 110px 100px;
 
 }
 
-.container3 button {
-  width: 250px;
-  height: 250px;
-
+.btn-animate {
+  width: 200px;
+  height: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -400,108 +436,6 @@ hr.rounded {
 .img-gallry:hover {
   flex: 4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
