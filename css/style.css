@@ -195,19 +195,6 @@ h1 {
 
 
 
-.address {
-  padding: 40px;
-  /* max-width: 20%; */
-  /* width: 10%; */
-  text-align: center;
-  font-weight: bolder;
-}
-
-.address a:hover {
-  color: black;
-  border: 1px solid black;
-}
-
 hr.rounded {
   border-top: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -242,11 +229,6 @@ hr.rounded {
   font-weight: bold;
 }
 
-.address a {
-  text-decoration: none;
-  font-size: large;
-  color: blueviolet;
-}
 
 
 
@@ -368,7 +350,7 @@ hr.rounded {
 
 .contact-details input {
   border-radius: 10px;
-  border-radius: 1px;
+  border: 1px solid black;
   padding: 5px;
   margin-bottom: 10px;
 }
@@ -491,6 +473,20 @@ hr.rounded {
 
 /* ------------------GALLERY-END-----------------------------*/
 
+
+/* Address bar! */
+.address {
+  /* padding: 40px; */
+  /* max-width: 20%; */
+  /* width: 10%; */
+  text-align: center;
+  font-weight: bolder;
+}
+
+.address a:hover {
+  color: black;
+  border: 1px solid black;
+}
 
 /* -----------------------FOOTER----------------------- */
 .footer {

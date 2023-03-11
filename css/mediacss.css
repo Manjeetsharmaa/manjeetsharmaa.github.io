@@ -1,14 +1,15 @@
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 480px) {
 
 
     body {
-        width: 679px;
+        width: auto;
         height: auto;
         /* max-width: 860px; */
     }
 
     .navbar {
-        height: 320px;
+        height: auto;
+        width: 100%;
     }
 
     .navbar .ul {
@@ -22,22 +23,31 @@
     }
 
     .navbar .ul .li a {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
 
     .content {
-        height: 80px;
+        height: 60px;
         width: auto;
     }
 
     .content .p {
-        padding-top: 28px;
+        padding: 5px 0px 5px 0px;
         /* width: auto; */
     }
 
     h3 {
         font-size: 35px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .container2 .h2 {
+        font-size: 24px;
+        padding-bottom: 40px;
     }
 
     .introduction {
@@ -48,7 +58,7 @@
 
     .introduction img {
         /* place-content: center; */
-        padding-top: 75px;
+        /* padding-top: 75px; */
         height: 250px;
         width: 220px;
     }
@@ -66,21 +76,49 @@
 
     .container3 {
         display: grid;
-        gap: 144px;
+        gap: 44px;
         /* width: 22px; */
-        /* height: 22px; */
-        grid-template-columns: 70px 70px 70px 180px;
+        height: 22px;
+        grid-template-columns: 70px 70px 180px 90px;
     }
 
     .container3 button {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
 
     .contact-form {
         padding: 65px;
     }
 
+    .container {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form {
+        display: grid;
+        justify-content: center;
+        row-gap: 10px;
+        /* Making contact detail's in center */
+
+        padding-top: 50px;
+        margin: auto;
+
+        padding-bottom: 40px;
+        /* color: white; */
+    }
+
+    .message {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .message button {
+        width: 300px;
+    }
 
 
 }
