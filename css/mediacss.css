@@ -1,13 +1,9 @@
-@media only screen and (max-width: 480px) {
-    body {
-        width: auto;
-        height: auto;
-    }
+@media only screen and (max-width: 486px) {
 
     .navbar {
         height: auto;
-        width: 100%;
         justify-content: center;
+        
     }
 
     .navbar .ul {
@@ -24,30 +20,31 @@
         text-align: center;
     }
 
-    .content {
-        height: 60px;
-        width: auto;
-    }
-
-
-    .container h3 {
-        margin-top: 0px;
-        font-size: 40px;
-    }
-
-    h1 {
+    .el-skills {
         font-size: 25px;
     }
 
-    .container2 .h2 {
+
+
+    .h3 {
+        /* margin-top: 82px; */
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+
+    .container .h2 {
         font-size: 16px;
         padding-bottom: 40px;
     }
 
     .introduction {
-        display: flex;
-        width: auto;
-        padding-left: 20px;
+        padding: 30px;
+        margin: 0px 0px;
     }
 
     .introduction img {
@@ -59,27 +56,27 @@
         line-height: 25px;
     }
 
-    .address {
-        padding-top: 14px;
-        padding-left: 250px;
-    }
 
 
 
     .container3 {
-        padding: 20px;
-
+        display: grid;
+        /* margin: 20px; */
+        padding: 10px;
     }
 
-    .container3 .animate {
-        width: 100px;
-        height: 100px;
+    .animate {
+        margin: 20px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
 
     .animate p {
-        margin: 35px 0px 10px 0px;
-        font-size: 16px;
+        width: 260px;
+        height: 160px;
+        /* margin: 35px 0px 10px 0px; */
+        padding: 150px 0px 0px 0px;
+        text-align: center;
+        font-size: 26px;
     }
 
 
@@ -94,26 +91,9 @@
         height: 100px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .contact-form {
-        padding: 65px;
-    }
-
     .container {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        place-content: center;
     }
 
     .container .img {
@@ -124,13 +104,10 @@
         display: grid;
         justify-content: center;
         row-gap: 10px;
+
         /* Making contact detail's in center */
-
         padding-top: 50px;
-        margin: auto;
-
         padding-bottom: 40px;
-        /* color: white; */
     }
 
     .contact-details input {

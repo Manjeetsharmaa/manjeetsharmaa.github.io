@@ -15,8 +15,6 @@ body {
 .navbar {
   height: auto;
   width: auto;
-
-  position: ;
   display: flex;
   justify-content: right;
   background-color: rgba(104, 89, 110, 0.615);
@@ -25,7 +23,6 @@ body {
 
 .navbar .ul {
   list-style-type: none;
-  /* float: right; */
 }
 
 .navbar .ul .li {
@@ -55,7 +52,7 @@ body {
 
 /* ---------------------NAV-end---------------------- */
 
-/* -----------------------------------#id--------------------- */
+/* ----------------------ID--------------------- */
 #section-1,
 #sectiom-2,
 #section-3 {
@@ -65,7 +62,7 @@ body {
 
 
 .container {
-
+  
   width: auto;
   height: auto;
 }
@@ -75,13 +72,13 @@ body {
   height: 820px;
 }
 
-h1 {
+.h1 {
   padding: 10px 0px 46px 0px;
   font-size: 30px;
   text-align: center;
 }
 
-.container2 .h2 {
+.container .h2 {
   color: rgb(0, 0, 0);
   padding: 10px 0px 0px 0px;
   font-size: 16px;
@@ -93,20 +90,19 @@ h1 {
 /* -----------------Introduction----------------- */
 .introduction {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  width: 70%;
-  height: auto;
-  padding-left: 250px;
-  /* background-color: rgb(190, 225, 230); */
+  margin: 0px 450px;
+  /* height: auto; */
 }
 
 .introduction strong {
   padding: 40px 0px 0px 12px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 /* Image  */
-.introduction .center {
+.introduction .profile_pic {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -121,77 +117,19 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.container h3 {
+.h3 {
   margin-top: 35px;
   text-align: center;
   font-size: 35px;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-hr.rounded {
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-}
-
-.section2 p {
-  padding: 150px;
-  margin: 20px;
-}
-
-.section2 p {
-  font-size: 15px;
-  font-family: "Lora", serif;
-  padding: 35px;
-  padding: 25px;
-  word-spacing: 4px;
-  padding: 10px;
-}
-
-.section2 tr td {
-  /* border: 1px solid rgb(0, 0, 0); */
-  padding: auto;
-  line-height: 25px;
-  font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 .el-skills {
   margin-top: 35px;
   text-align: center;
-  font-size: 35px;
-  color: blueviolet;
+  font-size: 45px;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
@@ -199,48 +137,21 @@ hr.rounded {
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
+
 }
 
 .animate {
-  border: 1px solid #ccc;
-  width: 300px;
-  height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .animate p {
-  text-align: center;
+  border: 1px solid #ccc;
+  width: 260px;
+  height: 260px;
   font-size: 40px;
-  margin: 80px 0px 0px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -269,8 +180,8 @@ hr.rounded {
 }
 
 .message textarea {
-  border-radius: 10px;
-  border: 1px solid black;
+  /* border-radius: 10px; */
+  /* border: 1px solid black; */
 }
 
 .contact-form label {
@@ -282,16 +193,13 @@ hr.rounded {
 
 
 .contact-details input {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 1px solid black;
   padding: 5px;
   margin-bottom: 10px;
 }
 
 
-.message textarea {
-  border-radius: 5px;
-}
 
 .message button {
   color: rgb(255, 255, 255);
@@ -346,20 +254,6 @@ hr.rounded {
 /* ------------------GALLERY-END-----------------------------*/
 
 
-/* Address bar! */
-.address {
-  /* padding: 40px; */
-  /* max-width: 20%; */
-  /* width: 10%; */
-  text-align: center;
-  font-weight: bolder;
-}
-
-.address a:hover {
-  color: black;
-  border: 1px solid black;
-}
-
 /* -----------------------FOOTER----------------------- */
 .footer {
   text-align: center;
@@ -367,11 +261,11 @@ hr.rounded {
   background-color: rgba(75, 25, 94, 0.615);
 }
 
-.footer .ul {
+ul {
   list-style: none;
 }
 
-.footer .ul .li {
+ul li {
   display: inline-block;
   margin: 25px;
   list-style: none;
@@ -379,7 +273,7 @@ hr.rounded {
 }
 
 
-.footer .ul .li a {
+ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   letter-spacing: 2px;
@@ -390,7 +284,7 @@ hr.rounded {
   font-variant: normal;
 }
 
-.footer .ul .li a:hover {
+ul li a:hover {
   color: #000000;
   /* border: 1px solid rgb(0, 0, 0); */
 
