@@ -127,7 +127,8 @@ body {
 
 .el-skills {
   margin-top: 35px;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 380px;
   font-size: 45px;
   color: rgb(0, 0, 0);
   font-weight: bold;
