@@ -53,7 +53,6 @@ body {
 /* ---------------------NAV-end---------------------- */
 
 /* ----------------------ID--------------------- */
-#section-1,
 #sectiom-2,
 #section-3 {
   width: auto;
@@ -88,12 +87,11 @@ body {
 
 
 /* -----------------Introduction----------------- */
-.introduction {
+#section-1.introduction {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0px 450px;
-  /* height: auto; */
+  margin: 0px 370px; 
 }
 
 .introduction strong {
@@ -144,16 +142,14 @@ body {
 .animate {
   display: flex;
   justify-content: center;
-  text-align: center;
+  flex-direction: column;
+  
 }
-
-.animate p {
-  border: 1px solid #ccc;
-  width: 260px;
-  height: 260px;
-  font-size: 40px;
+.animate img {
+  
+  width: 138px;
+  height: 172px;
 }
-
 
 
 
