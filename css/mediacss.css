@@ -59,28 +59,18 @@
         line-height: 25px;
     }
 
-
-
-
-    .container3 {
-        display: grid;
-        /* margin: 20px; */
-        padding: 10px;
+.container2{
+    padding: 30px;
+}
+    .container2 img {
+    
+        width: 98px;
+        height: 120px;
     }
 
-    .animate {
-        margin: 20px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-    }
 
-    .animate p {
-        width: 260px;
-        height: 160px;
-        /* margin: 35px 0px 10px 0px; */
-        padding: 150px 0px 0px 0px;
-        text-align: center;
-        font-size: 26px;
-    }
+
+  
 
 
     /* Gallery */

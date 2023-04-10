@@ -132,23 +132,16 @@ body {
   font-weight: bold;
 }
 
-.container3 {
+.container2 {
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
 
 }
 
-.animate {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  
-}
-.animate img {
-  
-  width: 138px;
-  height: 172px;
+.container2 img {
+  width: 178px;
+  height: 231px;
 }
 
 
