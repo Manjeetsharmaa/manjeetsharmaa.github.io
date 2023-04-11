@@ -6,6 +6,9 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   height: auto;
   width: auto;
@@ -61,8 +64,9 @@ body {
 
 
 .container {
-  
-  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: auto;
 }
 
@@ -91,7 +95,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0px 370px; 
+  margin: 0px 370px;
+  padding-bottom: 70px;
 }
 
 .introduction strong {
@@ -122,26 +127,48 @@ body {
   font-weight: bold;
 }
 
+.container .resume--btn {
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  background: blueviolet;
+  width: 160px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.resume--btn:hover {
+  background: black;
+  color: white;
+  transition: 0.3s;
+}
 
 .el-skills {
   margin-top: 35px;
-  /* text-align: center; */
-  padding-left: 380px;
-  font-size: 45px;
+  text-align: center;
+  font-size: 30px;
+  font-style: oblique;
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
 .container2 {
   display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
-
+  justify-content: center;
+  
+  padding-top: 60px;
 }
 
 .container2 img {
-  width: 178px;
-  height: 231px;
+  width: 118px;
+  height: 131px;
+
+  padding: 0px 0px 40px 0px;
 }
 
 
@@ -259,7 +286,6 @@ ul li {
   display: inline-block;
   margin: 25px;
   list-style: none;
-
 }
 
 
@@ -276,8 +302,6 @@ ul li a {
 
 ul li a:hover {
   color: #000000;
-  /* border: 1px solid rgb(0, 0, 0); */
-
 }
 
 /* FOOTER END */
