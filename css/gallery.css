@@ -1,0 +1,26 @@
+
+/*--------------------------- Gallery----------------- */
+
+.flex-box {
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+  
+    padding: 0px 0px 0px 0px;
+    width: auto;
+    height: 720px;
+  }
+  
+  .flex--elements {
+    width: 12;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+  }
+  
+  
+  
+  
+  /* -------------------GALLERY-END------------------------*/
