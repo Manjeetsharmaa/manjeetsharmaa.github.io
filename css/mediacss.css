@@ -100,25 +100,26 @@
     .contact-form {
         display: grid;
         justify-content: center;
-        row-gap: 10px;
+        row-gap: 2vh;
         /* Making contact detail's in center */
-        padding-top: 50px;
-        padding-bottom: 40px;
+        padding: 6vh 4vh 8vh 0vh;
+       
     }
 
     .contact-details input {
-        width: 80%;
+        width: 35vh;
         height: 30px;
     }
 
     .message {
         display: flex;
         flex-direction: column;
+     
         width: auto;
     }
 
     .message button {
-        width: 40vh;
+        width: 35vh;
     }
 
 
