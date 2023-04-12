@@ -11,7 +11,7 @@
     }
 
     .navbar .ul .li {
-        padding-top: 15px;
+        padding-top: 2vh;
         text-align: center;
     }
 
@@ -50,6 +50,10 @@
         margin: 0px 0px;
     }
 
+    .introduction strong {
+        font-size: 3vh;
+    }
+
     .introduction img {
         height: 250px;
         width: 220px;
@@ -59,21 +63,14 @@
         line-height: 25px;
     }
 
-    .container2 {
-     
-        padding: 40px;
+    div {
+        padding-left: 1.5vh;
     }
 
-    .container2 img {
-
-        width: 98px;
-        height: 120px;
+    .introduction .resume--btn {
+        width: 20vh;
+        height: 5vh;
     }
-
-
-
-
-
 
     /* Gallery */
     .flex-box {
@@ -89,17 +86,21 @@
     .container {
         display: grid;
         place-content: center;
+        padding: 10vh 0vh 10vh 0vh;
     }
 
-    .container .img {
-        height: 320px;
+
+    .skills img {
+        height: 15vh;
+        width: 14vh;
     }
+
+
 
     .contact-form {
         display: grid;
         justify-content: center;
         row-gap: 10px;
-
         /* Making contact detail's in center */
         padding-top: 50px;
         padding-bottom: 40px;
@@ -117,7 +118,7 @@
     }
 
     .message button {
-        width: 300px;
+        width: 40vh;
     }
 
 

@@ -1,10 +1,6 @@
 "use strict";
 
 
-
-
-
-
 function downloadPDF() {
 
     // Replace the URL below with the URL of your PDF file
