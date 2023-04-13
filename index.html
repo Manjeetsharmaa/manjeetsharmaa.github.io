@@ -66,6 +66,10 @@
       <img src="/img/logo/js--png.png" alt="javascript">
     </div>
 
+    <h4>Bootstrap</h4>
+    <div class="skills">
+      <img src="/img/logo/bootstrap-png.png" alt="bootstrap">
+    </div>
     <h4>React</h4>
     <div class="skills">
       <img src="/img/logo/react - img.png" alt="react">
@@ -78,7 +82,6 @@
     <div class="skills">
       <img src="/img/logo/git - png.png" alt="git">
     </div>
-
   </div>
 
 
@@ -91,14 +94,14 @@
     <form action="https://getform.io/f/60c0ecca-a34d-45d2-83f4-983b69730a20" method="POST" class="contact-form">
       <div class="contact-details">
         <label for="name">Name:</label>
-        <input type="text" name="name" id="yourname" placeholder="Your Name">
+        <input type="text" name="name" id="yourname" placeholder="Your Name" required>
 
         <label for="email">Email:</label>
-        <input type="text" name="email" id="Email" placeholder="Enter your email">
+        <input type="text" name="email" id="Email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
       </div>
       <div class="message">
         <label for="msg">Message:</label>
-        <textarea name="message" rows="12" placeholder="Your message to me!"></textarea>
+        <textarea name="message" rows="12" placeholder="Your message to me!" required></textarea>
         <button type="submit">Submit</button>
       </div>
     </form>
