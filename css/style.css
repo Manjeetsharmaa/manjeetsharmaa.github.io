@@ -21,7 +21,7 @@ body {
 .navbar {
   display: flex;
   justify-content: right;
-  background-color: rgba(104, 89, 110, 0.615);
+  background-color: #4b195e9d;
 
 }
 
@@ -155,25 +155,33 @@ body {
 
 /* ------------------Contact form----------------------- */
 .container2{
-  padding-top: 15vh;
-  background-image: linear-gradient(62deg, #ffffff 0%, #E0C3FC 100%);
+  padding: 5vh 0vh 5vh 0vh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 0.615686274509804)'%3e%3c/rect%3e%3cpath d='M1349.06 471.32L1380.4 471.32L1380.4 502.66L1349.06 502.66z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1117.08 508.03L1155.15 508.03L1155.15 561.31L1117.08 561.31z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M449.56 167.29L498.77 167.29L498.77 216.5L449.56 216.5z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M944.78 360.89L977.93 360.89L977.93 393.19L944.78 393.19z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M19.7 130.06 a28.57 28.57 0 1 0 57.14 0 a28.57 28.57 0 1 0 -57.14 0z' fill='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M456.36 423.23 a39.2 39.2 0 1 0 78.4 0 a39.2 39.2 0 1 0 -78.4 0z' fill='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M1339.91 394.95a20.35 20.35 0 1 0 36.02-18.94z' stroke='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M1319.6 310.67L1328.67 310.67L1328.67 330.12L1319.6 330.12z' stroke='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M1437.72 358.95L1489.32 358.95L1489.32 410.55L1437.72 410.55z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M392.09 505.74 a21.37 21.37 0 1 0 42.74 0 a21.37 21.37 0 1 0 -42.74 0z' stroke='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M941.85 456.9 a8.76 8.76 0 1 0 17.52 0 a8.76 8.76 0 1 0 -17.52 0z' stroke='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M964.69 329.31L1000.86 329.31L1000.86 359.69L964.69 359.69z' fill='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M901.12 136.33L940.83 136.33L940.83 145.3L901.12 145.3z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M855.21 417.55L898.4 417.55L898.4 429.1L855.21 429.1z' fill='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M1049.14 443.15a0.87 0.87 0 1 0 1.28-1.19z' fill='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M612.98 348.98 a38.12 38.12 0 1 0 76.24 0 a38.12 38.12 0 1 0 -76.24 0z' fill='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M752.72 30.89L778.9 30.89L778.9 57.07L752.72 57.07z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1077.82 504.92a51.62 51.62 0 1 0 15.42-102.08z' fill='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M965.07 341L1003.57 341L1003.57 379.5L965.07 379.5z' fill='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M605.72 387.6a26.66 26.66 0 1 0 39.01 36.35z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1324.66 33.7L1353.36 33.7L1353.36 62.4L1324.66 62.4z' stroke='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M1214.91 229.33 a39.3 39.3 0 1 0 78.6 0 a39.3 39.3 0 1 0 -78.6 0z' stroke='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M1146.19 132.63L1165.67 132.63L1165.67 152.11L1146.19 152.11z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M690.97 394.7L699.45 394.7L699.45 403.18L690.97 403.18z' stroke='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M929.98 439.83L946.06 439.83L946.06 491.49L929.98 491.49z' stroke='rgba(202%2c 163%2c 207%2c 1)'%3e%3c/path%3e%3cpath d='M1043.96 87.25L1048.9 87.25L1048.9 92.19L1043.96 92.19z' fill='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M262.19 104.47L302.87 104.47L302.87 145.15L262.19 145.15z' fill='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M892.3 546.87a8.32 8.32 0 1 0 0.91-16.61z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M199.5 467.66L253.76 467.66L253.76 521.92L199.5 521.92z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1263.12 231.11a40.16 40.16 0 1 0 64.52-47.84z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1277.68 511.87 a24.8 24.8 0 1 0 49.6 0 a24.8 24.8 0 1 0 -49.6 0z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M432.14 411.51 a11.7 11.7 0 1 0 23.4 0 a11.7 11.7 0 1 0 -23.4 0z' stroke='rgba(75%2c 25%2c 94%2c 0.615686274509804)'%3e%3c/path%3e%3cpath d='M136.17 380.29 a9.44 9.44 0 1 0 18.88 0 a9.44 9.44 0 1 0 -18.88 0z' stroke='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
+
 .h3 {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 3vh;
 }
 
 .contact-form {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   /* Making contact detail's in center */
-  padding-top: 19vh;
+  padding-top: 9vh;
   text-align: left;
   max-width: 80vh;
   margin: auto;
-
-  padding-bottom: 40px;
+  padding-bottom: 4vh;
+  /* BACKGROUND IMG */
+  border-radius: 20px;
+  box-shadow: 15px 12px 33px -4px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 15px 12px 33px -4px rgba(0,0,0,0.75);
+ -moz-box-shadow: 15px 12px 33px -4px rgba(0,0,0,0.75);
+  background-color: antiquewhite;
   /* color: white; */
 }
 
@@ -226,6 +234,9 @@ body {
 
 }
 
+.svg--pic{
+ padding: 0vh 0vh 0vh 0vh;
+}
 /* End with Contact form */
 
 
@@ -235,7 +246,7 @@ body {
 .footer {
   text-align: center;
   height: 220px;
-  background-color: rgba(75, 25, 94, 0.615);
+  background-color: #4b195e9d;
 }
 
 ul {
@@ -252,7 +263,6 @@ ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   letter-spacing: 2px;
-
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
@@ -267,4 +277,5 @@ h5{
   padding-top: 8vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* FOOTER END */
