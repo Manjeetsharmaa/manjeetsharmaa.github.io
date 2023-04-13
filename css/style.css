@@ -181,7 +181,7 @@ body {
   box-shadow: 15px 12px 33px -4px rgba(0,0,0,0.75);
  -webkit-box-shadow: 15px 12px 33px -4px rgba(0,0,0,0.75);
  -moz-box-shadow: 15px 12px 33px -4px rgba(0,0,0,0.75);
-  background-color: antiquewhite;
+  background-color: rgb(249,252,248);
   /* color: white; */
 }
 
@@ -211,7 +211,16 @@ body {
   padding: 5px;
   margin-bottom: 2vh;
 }
+.contact-details input::placeholder{
+  font-size: 10px;
+  text-transform: uppercase;
+}
 
+.message textarea::placeholder{
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 0.5vh;
+}
 .message button {
   color: rgb(255, 255, 255);
   border: 0;
