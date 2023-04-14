@@ -59,11 +59,12 @@ body {
 }
 
 /* ----------------------NAVBAR------------------- */
+
 .navbar {
   display: flex;
   justify-content: right;
   background-color: #4b195e9d;
-
+  
 }
 
 .navbar .ul {
