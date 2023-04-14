@@ -20,28 +20,13 @@
         text-align: center;
     }
 
-    .el-skills {
-        font-size: 25px;
-        padding: 0px;
-        text-align: center;
-    }
 
-
-
-    .h3 {
-        /* margin-top: 82px; */
-        text-align: center;
-        font-size: 35px;
-        font-weight: bold;
+    .container .img-skills {
+        width: auto;
     }
 
     .h1 {
         font-size: 25px;
-    }
-
-    .container .h2 {
-        font-size: 16px;
-        padding-bottom: 40px;
     }
 
     #section-1.introduction {
@@ -86,24 +71,45 @@
     .container {
         display: grid;
         place-content: center;
-        padding: 10vh 0vh 10vh 0vh;
+        padding: 5vh 0vh 10vh 0vh;
+    }
+    .container .img-skills::before{
+        background-color: #000000;
+    }
+  
+
+    h2 {
+        padding: 5vh 0vh 2vh 0vh;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        text-align: center;
+        font-weight: 500;
+        text-decoration: underline;
+        text-transform: uppercase;
     }
 
-
-    .skills img {
+    .img-skills img {
         height: 15vh;
         width: 14vh;
     }
 
 
+    .h3 {
+        /* margin-top: 82px; */
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
 
     .contact-form {
         display: grid;
-        justify-content: center;
-        row-gap: 2vh;
+        place-content: center;
+        padding: 10vh 0vh 10vh 0vh;
+        width: 90vw;
+        row-gap: 1vh;
         /* Making contact detail's in center */
-        padding: 6vh 4vh 8vh 0vh;
-       
+        padding-right: 1vh;
+
     }
 
     .contact-details input {
@@ -114,7 +120,6 @@
     .message {
         display: flex;
         flex-direction: column;
-     
         width: auto;
     }
 
