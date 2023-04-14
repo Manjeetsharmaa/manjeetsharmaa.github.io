@@ -60,9 +60,21 @@ body {
 
 /* ----------------------NAVBAR------------------- */
 
+.logo{
+  float: left;
+  height: 50px;
+  padding: 0px 40px 30px 140px;
+  text-align: center;
+  /* background-color: red; */
+  width: 80px;
+}
+.logo img{
+  height: 80px;
+  width: 90px;
+}
 .navbar {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   background-color: #4b195e9d;
   
 }
@@ -78,7 +90,7 @@ body {
 
 .navbar .ul .li a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 0.7rem;
   letter-spacing: 2px;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -108,7 +120,7 @@ body {
 
 .h1 {
   padding: 5vh 0vh 2vh 0vh;
-  font-size: 2em;
+  font-size: 20px;
   letter-spacing: 0.1em;
   text-align: center;
   font-weight: 500;
@@ -230,13 +242,12 @@ h2 {
 
 .contact-form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   /* Making contact detail's in center */
-  padding: 29px 10px 0px 10px;
+  padding: 2vh 10vh 10vh 10vh;
   text-align: left;
   width: 80vh;
   margin: auto;
-  padding-bottom: 4vh;
   /* BACKGROUND IMG */
   border-radius: 20px;
   box-shadow: 15px 12px 33px -4px rgba(0, 0, 0, 0.75);
@@ -249,6 +260,7 @@ h2 {
 .message {
   display: flex;
   flex-direction: column;
+
   width: 60%;
 }
 
@@ -260,28 +272,31 @@ h2 {
 
 .contact-form label {
   display: flex;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
+  margin: 10px;
+  font-size: 0.8rem;
+  /* padding-top: 4vh; */
 
 }
 
 .contact-details input {
   border-radius: 10px;
   background: transparent;
-  border: 1px solid black;
-  padding: 5px;
-  margin-bottom: 2vh;
+  border: 0.1px solid black;
+  padding: 0.2vh 0vh 0vh 0vh;
+  width: 130px;
 }
 
 .contact-details input::placeholder {
   font-size: 10px;
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 .message textarea::placeholder {
-  font-size: 15px;
+  text-align: center;
+  font-size: 12px;
   text-transform: uppercase;
-  padding-top: 0.5vh;
+  padding: 10px 0px 0px 0px;
 }
 
 .message button {
@@ -318,7 +333,7 @@ h2 {
 /* -----------------------FOOTER----------------------- */
 .footer {
   text-align: center;
-  height: 220px;
+  height: auto;
   background-color: #4b195e9d;
 }
 
@@ -336,14 +351,14 @@ ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
   font-variant: normal;
 }
 
 ul li a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 .footer-icon {
   margin: 0;
