@@ -30,10 +30,8 @@
         flex-direction: column;
         /* background-color: black; */
         background-color: #4b195e9d;
-
         width: 100%;
         text-align: center;
-        transition: 0.3s;
     }
 
     .nav-item {
@@ -54,7 +52,8 @@
         font-size: 25px;
     }
     .h1.active{
-        display: none;
+        padding-top: 165px;
+        transition: 0.3 ease;
     }
     #section-1.introduction {
 
@@ -62,7 +61,6 @@
         margin: 0px 0px;
     }
     #section-1.introduction.active{
-        padding-top: 153px;
         position: sticky;
     }
 
@@ -107,7 +105,7 @@
 
     h2 {
         padding: 5vh 0vh 2vh 0vh;
-        font-size: 2em;
+        font-size: 22px;
         letter-spacing: 0.1em;
         text-align: center;
         font-weight: 500;
