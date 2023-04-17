@@ -1,4 +1,23 @@
 "use strict";
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const h1 = document.querySelector(".h1");
+const intro = document.getElementById("section-1");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+    h1.classList.toggle("active");
+    intro.classList.toggle("active");
+})
+
+document.querySelector(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+    h1.classList.remove("active");
+    intro.classList.remove("active");
+}));
+
 
 
 function downloadPDF() {

@@ -46,6 +46,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -60,52 +61,68 @@ body {
 
 /* ----------------------NAVBAR------------------- */
 
-.logo{
-  float: left;
-  height: 50px;
-  padding: 0px 40px 30px 140px;
-  /* background-color: red; */
-  width: 80px;
+header {
+  background-color: #4b195e9d;
 }
-.logo img{
-  height: 80px;
-  width: 90px;
+
+li {
+  list-style: none;
+}
+
+.nav-2 {
+  font-size: 25px;
+  padding-left: 260px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.nav-2:hover{
+  color: rgb(255, 255, 255);
+
 }
 .navbar {
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
-  background-color: #4b195e9d;
-  
+  align-items: center;
+  padding: 0 24px;
 }
 
-.navbar .ul {
-  list-style-type: none;
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 
-.navbar .ul .li {
-  padding: 4vh;
-  float: left;
+.nav-branding {
+  font-size: 2rem;
 }
 
-.navbar .ul .li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.7rem;
-  letter-spacing: 2px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-weight: 700;
+.nav-link {
+  font-size: 0.8rem;
+  transition: 0.3s ease;
 }
 
-.navbar .ul .li a:hover {
+.nav-link:hover {
   color: rgb(255, 255, 255);
-  text-shadow: 0px 5px 1px #000000;
 }
 
-.navbar .ul .li a:active {
-  background-color: rgb(176, 154, 197);
-  border: 1px solid black;
+.hamburger {
+  display: none;
+  cursor: pointer;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
 /* ---------------------NAV-end---------------------- */
 
 /* ----------------------ID--------------------- */
@@ -117,6 +134,10 @@ body {
 
 
 
+
+
+
+/* -----------------Introduction----------------- */
 .h1 {
   padding: 5vh 0vh 2vh 0vh;
   font-size: 25px;
@@ -127,13 +148,11 @@ body {
   text-transform: uppercase;
 
 }
-
-
-/* -----------------Introduction----------------- */
 #section-1.introduction {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
   margin: 0px 30vh;
   padding-bottom: 7vh;
 
@@ -214,7 +233,7 @@ h2 {
   margin: 20px;
   padding: 5vh;
   width: 15%;
-  height: 15vh;
+  height: 25vh;
 }
 
 .img-skills img {
@@ -421,7 +440,7 @@ ul li a:hover {
 .footer-icon img{
   margin: 0px;
   padding: 10px;
-  width: 3vh;
+  width: 8vh;
   height: 5vh;
 }
 

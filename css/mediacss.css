@@ -1,32 +1,50 @@
 @media only screen and (max-width: 486px) {
-  
-    .logo{
-       margin-left: 30px;
-  
+
+    /* nav-start */
+    .hamburger {
+        display: block;
     }
-    .navbar {
-        display: flex;
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-2 {
+        padding: 0px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
         flex-direction: column;
-        justify-content: space-between;
-        height: auto;
-  
+        /* background-color: black; */
+        background-color: #4b195e9d;
 
-    }
-
-    .navbar .ul {
-        display: grid;
-    }
-
-    .navbar .ul .li {
-        padding-top: 10px;
+        width: 100%;
         text-align: center;
+        transition: 0.3s;
     }
 
-    .navbar .ul .li a {
-        font-size: 15px;
-        text-align: center;
+    .nav-item {
+        margin: 16px 0;
     }
 
+    .nav-menu.active {
+        left: 0;
+    }
+
+    /* nav-end */
 
     .container .img-skills {
         width: auto;
@@ -35,11 +53,17 @@
     .h1 {
         font-size: 25px;
     }
-
+    .h1.active{
+        display: none;
+    }
     #section-1.introduction {
 
         padding: 30px;
         margin: 0px 0px;
+    }
+    #section-1.introduction.active{
+        padding-top: 153px;
+        position: sticky;
     }
 
     .introduction strong {
@@ -70,20 +94,16 @@
         justify-content: center;
     }
 
-
-    .img-gallry {
-        height: 100px;
-    }
-
     .container {
         display: grid;
         place-content: center;
         padding: 5vh 0vh 10vh 0vh;
     }
-    .container .img-skills::before{
+
+    .container .img-skills::before {
         background-color: #000000;
     }
-  
+
 
     h2 {
         padding: 5vh 0vh 2vh 0vh;
@@ -94,10 +114,14 @@
         text-decoration: underline;
         text-transform: uppercase;
     }
-
+    .container .img-skills{
+        height: 18vh;
+        width: 18vh;
+    }
     .img-skills img {
-        height: 15vh;
-        width: 14vh;
+        align-content: center;
+        height: 8vh;
+        width: 8vh;
     }
 
 
@@ -133,6 +157,9 @@
     .message button {
         width: 35vh;
     }
-
+    .footer-icon img{
+        width: 8vh;
+        height: 5vh;
+    }
 
 }
