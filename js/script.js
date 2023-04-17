@@ -26,7 +26,7 @@ window.addEventListener("scroll", () =>{
 });
 
 
-// Downloading Resume
+// Downloading Resume hello
 function downloadPDF() {
 
     // Replace the URL below with the URL of your PDF file
