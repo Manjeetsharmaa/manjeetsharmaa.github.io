@@ -11,15 +11,22 @@ hamburger.addEventListener("click", () => {
     intro.classList.toggle("active");
 })
 
-document.querySelector(".nav-link").forEach(n => n.addEventListener("click", () => {
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",  () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
     h1.classList.remove("active");
     intro.classList.remove("active");
 }));
 
+window.addEventListener("scroll", () =>{
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+    h1.classList.remove("active");
+    intro.classList.remove("active");
+});
 
 
+// Downloading Resume
 function downloadPDF() {
 
     // Replace the URL below with the URL of your PDF file
