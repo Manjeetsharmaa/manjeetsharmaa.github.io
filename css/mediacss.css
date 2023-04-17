@@ -1,4 +1,4 @@
-@media only screen and (max-width: 486px), screen and (max-height:883px) {
+@media only screen and (max-width: 486px) {
 
   /* nav-start */
   .hamburger {
@@ -168,62 +168,3 @@
   }
 }
 
-@media only screen and (max-width: 854px),
-screen and (max-height: 412px){
-
-  .nav-2 {
-    padding-left: 80px;
-  }
-
-  .h1 {
-    padding: 45px 0px;
-  }
-
-  .introduction .profile_pic {
-    width: 160px;
-    height: 160px;
-  }
-
-  .introduction strong {
-    font-size: 30px;
-    padding-left: 12px;
-  }
-
-  .introduction .resume--btn{
-    width: 120px;
-    height: 40px;
-  }
-  h2 {
-    padding: 20px 0px;
-  }
-  .container .img-skills {
-    width: 85%;
-    height: 45vh
-  }
-
-  .img-skills img{
-    flex-wrap: wrap;
-    padding-top: 30px;
-    width: 55%;
-    height: 100px;
-  }
-  .img-skills h4{
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .contact-form {
-    width: 80%;
-  }
-  .message textarea::placeholder{
-    padding: 0px;
-  }
-  .footer-icon img{
-    width: 60px;
-    height: 100px;
-  }
- 
-  .contact-details input {
-    width: 85vh;
-    height: 30px;
-  }
-}
