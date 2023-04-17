@@ -489,9 +489,9 @@ screen and (max-height: 412px){
 
   .img-skills img{
     flex-wrap: wrap;
-    padding-top: 0px;
-    width: 55%;
-    height: 170px;
+    padding: 10px 0px;
+    width: 45%;
+    height: 150px;
   }
   .img-skills h4{
     text-transform: uppercase;
