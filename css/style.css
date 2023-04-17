@@ -5,8 +5,8 @@
 /* SCROLL BAR */
 /* Firefox */
 * {
-  scrollbar-width: thin;
-  scrollbar-color: #397524 #DFE9EB;
+  scrollbar-width: 10px;
+  scrollbar-color: #4b195e9d #fff;
 }
 
 /* Chrome, Edge and Safari */
@@ -21,11 +21,11 @@
 }
 
 *::-webkit-scrollbar-track:hover {
-  background-color: #B8C0C2;
+  background-color: #4b195e9d;
 }
 
 *::-webkit-scrollbar-track:active {
-  background-color: #B8C0C2;
+  background-color: #4b195e9d;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -274,7 +274,6 @@ h2 {
 .message {
   display: flex;
   flex-direction: column;
-
   width: 60%;
 }
 
@@ -286,7 +285,7 @@ h2 {
 
 .contact-form label {
   display: flex;
-  margin: 10px;
+  padding: 8px 0px;
   font-size: 20px;
   /* padding-top: 4vh; */
 
