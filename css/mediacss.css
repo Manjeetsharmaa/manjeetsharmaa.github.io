@@ -1,3 +1,25 @@
+/* Tablet */
+
+@media only screen and(max-height:820px),
+screen and (max-width:1080px) {
+  #section-1.introduction{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 70px;
+  }
+  .container .img-skills{
+    width: 45%;
+    height: 25vh;
+  }
+
+  .contact-details input {
+    width: 15vh;
+    margin: 0px 20px;
+  }
+
+}
+
+
 @media only screen and (max-width: 486px) {
 
   /* nav-start */
@@ -140,23 +162,27 @@
   .contact-form {
     display: grid;
     place-content: center;
-    padding: 10vh 0vh 10vh 0vh;
+    padding: 20px 0vh 20px 0vh;
     width: 90vw;
     row-gap: 1vh;
     /* Making contact detail's in center */
-    padding-right: 1vh;
+    /* padding-right: 1vh; */
   }
-
+  .contact-form label{
+    padding-left: 5px;
+  }
   .contact-details input {
-    width: 35vh;
+    width: 30vh;
     height: 30px;
   }
-
+  
   .message {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 89%;
+    padding-left: 5px;
   }
+
 
   .message button {
     width: 35vh;

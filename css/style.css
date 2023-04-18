@@ -96,10 +96,6 @@ li {
   gap: 40px;
 }
 
-.nav-branding {
-  font-size: 2rem;
-}
-
 .nav-link {
   font-size: 0.8rem;
   transition: 0.3s ease;
@@ -143,14 +139,14 @@ li {
   text-transform: uppercase;
 
 }
-#section-1.introduction {
+
+#section-1.introduction{
   display: flex;
   justify-content: center;
   flex-direction: column;
 
-  margin: 0px 30vh;
-  padding-bottom: 7vh;
-
+  margin: 0vh 35vh;
+  padding-bottom: 7px;
   text-align: left;
 }
 
@@ -271,6 +267,21 @@ h2 {
   /* color: white; */
 }
 
+.contact-details input {
+  border-radius: 5px;
+  background: transparent;
+  border: 0.1px solid black;
+  padding: 0.2vh 0vh 0vh 0vh;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.contact-details input::placeholder {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  
+}
 .message {
   display: flex;
   flex-direction: column;
@@ -291,20 +302,7 @@ h2 {
 
 }
 
-.contact-details input {
-  border-radius: 5px;
-  background: transparent;
-  border: 0.1px solid black;
-  padding: 0.2vh 0vh 0vh 0vh;
-  width: 150px;
-}
 
-.contact-details input::placeholder {
-  font-size: 10px;
-  text-transform: uppercase;
-  padding: 0px 0px 0px 10px;
-  
-}
 
 .message textarea::placeholder {
   text-align: center;
@@ -453,6 +451,7 @@ h5 {
 }
 
 /* FOOTER END */
+
 
 @media only screen and (max-width: 857px),
 screen and (max-height: 412px){
