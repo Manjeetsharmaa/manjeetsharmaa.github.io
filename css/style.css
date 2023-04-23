@@ -266,10 +266,12 @@ h2 {
   background-color: rgb(249, 252, 248);
   /* color: white; */
 }
+
 .contact-details {
   display: flex;
   flex-direction: column;
 }
+
 .contact-details input {
   border-radius: 5px;
   background: transparent;
