@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media only screen and(max-height:820px),
+@media only screen and(min-height:820px),
 screen and (max-width:1080px) {
   .nav-2 {
     padding: 0px;
@@ -23,13 +23,13 @@ screen and (max-width:1080px) {
     padding: 10px;
   }
   .contact-form{
-    width: 55vh;
+    width: 65vh;
   }
 
 }
 
 
-@media only screen and (max-width: 486px) {
+@media only screen and (max-width: 486px){
 
   /* nav-start */
   .hamburger {
@@ -201,8 +201,8 @@ screen and (max-width:1080px) {
   }
 
   .footer-icon img {
-    width: 8vh;
-    height: 5vh;
+    width: 55px;
+    height: 55px;
   }
 }
 
