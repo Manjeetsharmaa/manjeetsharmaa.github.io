@@ -266,7 +266,10 @@ h2 {
   background-color: rgb(249, 252, 248);
   /* color: white; */
 }
-
+.contact-details {
+  display: flex;
+  flex-direction: column;
+}
 .contact-details input {
   border-radius: 5px;
   background: transparent;
@@ -434,9 +437,9 @@ ul li a:hover {
 }
 .footer-icon img{
   margin: 0px;
-  padding: 10px;
-  width: 8vh;
-  height: 5vh;
+  padding: 0px 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .footer p{
@@ -452,8 +455,8 @@ h5 {
 
 /* FOOTER END */
 
-
-@media only screen and (max-width: 857px),
+/* Tablet */
+/* @media only screen and (max-width: 857px),
 screen and (max-height: 412px){
 
   .nav-2 {
@@ -482,8 +485,8 @@ screen and (max-height: 412px){
     padding: 20px 0px;
   }
   .container .img-skills {
-    width: 45%;
-    height: 55vh
+    width: 20px;
+    height: 55vh;
   }
 
   .img-skills img{
@@ -511,4 +514,4 @@ screen and (max-height: 412px){
     width: 45vh;
     height: 30px;
   }
-}
+} */

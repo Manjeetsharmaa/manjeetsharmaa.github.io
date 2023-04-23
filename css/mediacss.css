@@ -2,6 +2,9 @@
 
 @media only screen and(max-height:820px),
 screen and (max-width:1080px) {
+  .nav-2 {
+    padding: 0px;
+  }
   #section-1.introduction{
     display: flex;
     flex-direction: column;
@@ -13,8 +16,14 @@ screen and (max-width:1080px) {
   }
 
   .contact-details input {
-    width: 15vh;
+    width: 150px;
     margin: 0px 20px;
+  }
+  .contact-form label {
+    padding: 10px;
+  }
+  .contact-form{
+    width: 55vh;
   }
 
 }
@@ -168,24 +177,27 @@ screen and (max-width:1080px) {
     /* Making contact detail's in center */
     /* padding-right: 1vh; */
   }
+  .contact-details{
+    padding: 0;
+  }
   .contact-form label{
     padding-left: 5px;
   }
   .contact-details input {
-    width: 30vh;
+    margin: 0;
+    width: 320px;
     height: 30px;
   }
-  
-  .message {
-    display: flex;
-    flex-direction: column;
-    width: 89%;
-    padding-left: 5px;
+  .message{
+    padding: 0;
+  }
+  .message textarea{
+    width: 320px;
   }
 
 
   .message button {
-    width: 35vh;
+    width: 320px;
   }
 
   .footer-icon img {
@@ -193,4 +205,6 @@ screen and (max-width:1080px) {
     height: 5vh;
   }
 }
+
+  
 
