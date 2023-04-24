@@ -28,7 +28,7 @@ screen and (max-width:1080px) {
 
 }
 
-
+/* Phone */
 @media only screen and (max-width: 486px){
 
   /* nav-start */
@@ -149,12 +149,6 @@ screen and (max-width:1080px) {
     width: 28vh;
   }
 
-  .img-skills img {
-    align-content: center;
-    height: 15vh;
-    width: 13vh;
-  }
-
   /* Gallery */
   #gallery.active {
     padding-top: 150px;
@@ -201,10 +195,11 @@ screen and (max-width:1080px) {
   }
 
   .footer-icon img {
-    width: 55px;
+    width: 48px;
     height: 55px;
   }
 }
 
   
+
 
